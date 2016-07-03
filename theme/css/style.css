@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+html,body {
+	height:100%;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #eee;
+}
+
+.body-background {
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-global{
+  max-width: 440px;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent;
+}
+
+.form-global {
+  width: 100%;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.form-global .form-global-heading,
+.form-global .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-global .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-global .form-control:focus {
+  z-index: 5000;
+}
+
+.form-global input[type="text"] {
+  margin-bottom: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-global input[type="password"] {
+  margin-bottom: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-global textarea {
+  margin-bottom: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.error-message {
+  color:#C04343;
+  font-weight:bold;
+  text-align: center;
+  padding-top:10px;
+}
+
+.post-message {
+  color:#000;
+  text-align: center;
+}
+
+.img-responsive.img-center {
+  margin: 0 auto; 
+
+}
+
+.alpha80 {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.8);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#C8FFFFFF);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#C8FFFFFF);
+}
+.alpha-back {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.8);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#C8FFFFFF);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#C8FFFFFF);
+        -moz-border-radius:10px; border-radius:10px; 
+}
+
+.pad-space {padding:20px 40px 40px 40px;}
+
+.btn-lg {margin-bottom: 6px;}
+
+/* ---------------- Ads content--------------------*/ 
+#click_ad_content {
+  width: 100%; 
+}
+
+/* ---------------- Click Coupons --------------------*/
+.coupons_div{
+ width:100%;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:16px;
+ font-weight:bold;
+ text-align: center;
+}
+
+.coupons_table{
+ width:100%;
+ border: 1px solid #FFFFFF;
+ border-collapse: collapse;
+ border-spacing: 0px;
+ background-color:#FFFFFF;
+}
+
+.coupons_table td a {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:16px;
+  text-decoration:none;
+  color:black;
+}
+
+.coupons_table td.off {
+ background:#FFFFFF;
+}
+
+.coupons_table td.on {
+ background:#F2F2F2;
+}
+
+.coupons_image_div{
+ width:140px;
+ height:60px;
+ float:left;
+ background-size: cover;
+ background-size:100% auto;
+}
+
+.coupons_image_bck{
+ background-size: cover;
+ background-size:95% auto;
+}
+
+.coupons_image{
+  padding:3px;
+}
+
+/* ---------------- Announcement --------------------*/
+#announcement_div {
+  width:100%;
+  height:80px;
+  padding:0px;
+}
+
+/* ---------------- radio group setup --------------------*/
+[data-toggle="buttons"] > .btn > input[type="radio"] {
+    display: inline;
+}
+
+.btn-group-vertical{display:block;}
+.btn-group-vertical+.btn-group-vertical{margin-top:5px;}
+.btn-group-vertical .btn{display:block;width:100%;margin-top:-1px;padding-top:5px;font-size:16px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.btn-group-vertical .btn.btn-large{padding-top:10px;}
+.btn-group-vertical .btn:first-child{margin-top:0;-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-moz-border-radius-topright:4px;border-top-right-radius:4px;}
+.btn-group-vertical .btn:last-child,.btn-group-vertical .dropdown-toggle{-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px;}
+.btn-group-vertical .btn.large:first-child{margin-top:0;-webkit-border-top-left-radius:6px;-moz-border-radius-topleft:6px;border-top-left-radius:6px;-webkit-border-top-right-radius:6px;-moz-border-radius-topright:6px;border-top-right-radius:6px;}
+.btn-group-vertical .btn.large:last-child,.btn-group-vertical .large.dropdown-toggle{-webkit-border-bottom-left-radius:6px;-moz-border-radius-bottomleft:6px;border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px;-moz-border-radius-bottomright:6px;border-bottom-right-radius:6px;}
+.btn-group-vertical .btn:hover,.btn-group-vertical .btn:focus,.btn-group-vertical .btn:active,.btn-group-vertical .btn.active{z-index:2;}
+.btn-group-vertical .dropdown-toggle:active,.btn-group-vertical.open .dropdown-toggle{outline:0;}
+
+
+/* ---------------- Click Coupons Details --------------------*/
+.coupon_image_div{
+  padding-top:3px;
+  height:60px;
+}
+
+.coupon_image{
+  width:100px;
+  height:50px;
+}
+
+.coupon_name{
+  height:60px;
+  float:left;
+  margin-top:8px;
+  font-size:12px;
+  text-align:left;
+  font-family:arial,helvetica,sans-serif;
+}
+
+.coupon_offer{
+  padding-top:4px;
+  height: 50px; 
+  float:left;
+  font-size:22px;
+  font-family:arial,helvetica,sans-serif;
+}
+
+.coupon_image_url{
+  width:300px;
+}
+
+/* ---------------- bootstrap change --------------------*/
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  background-color: #efefef;
+}
