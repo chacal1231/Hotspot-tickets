@@ -42,7 +42,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Login Admin Panel</title>
+        <title>Inicio de sesi&oacute;n - Panel administrador</title>
         <meta name="description" content="Billing Hotspot Mikrotik" />
         <meta name="author" content="PHPMixBill">
         <meta name="keywords" content="mighty admin, admin, themeforest, panel, administrator, theme, template, html template" />
@@ -119,11 +119,13 @@
 							<input type="password" name="password" data-validation-engine="validate[required]" id="pass" placeholder="Password" />
 						</label>
 						
-						<input type="submit" class="bt large full-bt" value="Login" />
+						<input type="submit" class="bt large full-bt" value="Iniciar sesi&oacute;n" />
 					</form>
 				</div>
-				<footer>
-					<a href="">PHP Mikrotik Billing</a>
+				<footer>				
+				<font face="Comic Sans MS,arial,verdana" color="C1C1C1">&copy; 2016&#32;</font>
+				</hr><a href=""><em>Grupo SITEL S.A.S</em></a>
+				<font face="Comic Sans MS,arial,verdana" color="C1C1C1"> - Todos los derechos reservados.</font>
 				</footer>
 			</section>
 		</div>

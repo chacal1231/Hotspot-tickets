@@ -8348,7 +8348,7 @@
 		 * This parameter allows you to override the default function which obtains
 		 * the data from the server ($.getJSON) so something more suitable for your
 		 * application. For example you could use POST data, or pull information from
-		 * a Gears or AIR database.
+		 * a Gears or AIR Database.
 		 *  @type function
 		 *  @member
 		 *  @param {string} sSource HTTP source to obtain the data from (sAjaxSource)
@@ -8435,7 +8435,7 @@
 		/**
 		 * Load the table state. With this function you can define from where, and how, the
 		 * state of a table is loaded. By default DataTables will load from its state saving
-		 * cookie, but you might wish to use local storage (HTML5) or a server-side database.
+		 * cookie, but you might wish to use local storage (HTML5) or a server-side Database.
 		 *  @type function
 		 *  @member
 		 *  @param {object} oSettings DataTables settings object
@@ -8538,7 +8538,7 @@
 		/**
 		 * Save the table state. This function allows you to define where and how the state
 		 * information for the table is stored - by default it will use a cookie, but you
-		 * might want to use local storage (HTML5) or a server-side database.
+		 * might want to use local storage (HTML5) or a server-side Database.
 		 *  @type function
 		 *  @member
 		 *  @param {object} oSettings DataTables settings object
@@ -9913,7 +9913,7 @@
 		/**
 		 * This parameter is only used in DataTables' server-side processing. It can
 		 * be exceptionally useful to know what columns are being displayed on the
-		 * client side, and to map these to database fields. When defined, the names
+		 * client side, and to map these to Database fields. When defined, the names
 		 * also allow DataTables to reorder information from the server if it comes
 		 * back in an unexpected order (i.e. if you switch your columns around on the
 		 * client-side, your server-side code does not also need updating).

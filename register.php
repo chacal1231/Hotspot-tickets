@@ -72,7 +72,7 @@ if(isset($_POST['register'])) {
 					}elseif(isset($error)) {
 						echo "<br><p class='error-message'><strong>ERROR!</strong> $lang_reg_error</p>";
 					}elseif(isset($fail)) {
-						echo "<br><p class='error-message'><strong>FAIL!</strong> $lang_reg_fail</p>";
+						echo "<br><p class='error-message'><strong>¡DISCULPA!</strong> $lang_reg_fail</p>";
 					}
 				?>
                </div>

@@ -39,7 +39,7 @@ require "system/library.php";
     </div>
 	<br>
 
-	<button id="btn1" class="btn btn-lg btn-default btn-block">PRICE PLANS UNLIMITED</button>
+	<button id="btn1" class="btn btn-lg btn-default btn-block">Precio del plan Ilimitado</button>
 	<p></p>
 	<div id="first_form" class="alpha80" style="-moz-border-radius:10px; border-radius:10px; display: none;">
 		<div class="pad-space">

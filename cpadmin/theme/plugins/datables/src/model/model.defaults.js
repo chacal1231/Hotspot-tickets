@@ -881,7 +881,7 @@ DataTable.defaults = {
 	 * This parameter allows you to override the default function which obtains
 	 * the data from the server ($.getJSON) so something more suitable for your
 	 * application. For example you could use POST data, or pull information from
-	 * a Gears or AIR database.
+	 * a Gears or AIR Database.
 	 *  @type function
 	 *  @member
 	 *  @param {string} sSource HTTP source to obtain the data from (sAjaxSource)
@@ -968,7 +968,7 @@ DataTable.defaults = {
 	/**
 	 * Load the table state. With this function you can define from where, and how, the
 	 * state of a table is loaded. By default DataTables will load from its state saving
-	 * cookie, but you might wish to use local storage (HTML5) or a server-side database.
+	 * cookie, but you might wish to use local storage (HTML5) or a server-side Database.
 	 *  @type function
 	 *  @member
 	 *  @param {object} oSettings DataTables settings object
@@ -1071,7 +1071,7 @@ DataTable.defaults = {
 	/**
 	 * Save the table state. This function allows you to define where and how the state
 	 * information for the table is stored - by default it will use a cookie, but you
-	 * might want to use local storage (HTML5) or a server-side database.
+	 * might want to use local storage (HTML5) or a server-side Database.
 	 *  @type function
 	 *  @member
 	 *  @param {object} oSettings DataTables settings object

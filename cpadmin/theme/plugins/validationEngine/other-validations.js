@@ -13,7 +13,7 @@
 				"alertText": "* Invalid postcode"
 		};
 		$.validationEngineLanguage.allRules["onlyLetNumSpec"] = {
-				// Good for database fields
+				// Good for Database fields
 				"regex": /^[0-9a-zA-Z_-]+$/,
 				"alertText": "* Only Letters, Numbers, hyphen(-) and underscore(_) allowed"
 		};

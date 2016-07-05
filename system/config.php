@@ -8,7 +8,7 @@
 * @donate		PayPal: iesien22@yahoo.com / Mandiri: 130.00.1024957.4
 **/
 //Pengaturan Database
-$db_name = "PHPMixBill4.3";
+$db_server = "127.0.0.1";
 $db_name = "PHPMixBill4.3";
 $db_user = "root";
 $db_password = "123456789";

@@ -35,7 +35,7 @@
 		echo "<h2>$lang_menu_modul</h2>
 				<ul>";
 			while ($m=mysql_fetch_array($sql)){  
-				echo "<li><a href='?page=$m[filename]'><i class='icon-arrow-right-2'></i><div class='label'>$m[nama_modul]</div></a></li>";
+				echo "<li><a href='?page=$m[filename]'><i class='icon-arrow-right-2'></i><div class='label'>Base de datos</div></a></li>";
 			}
 		echo "</ul>";
 		}

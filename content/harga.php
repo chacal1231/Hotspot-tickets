@@ -17,7 +17,7 @@
     </div>
 	<br>
 
-	<button id="btn1" class="btn btn-lg btn-default btn-block">PRICE PLANS UNLIMITED</button>
+	<button id="btn1" class="btn btn-lg btn-default btn-block">Precio del plan ILIMITADO</button>
 	<p></p>
 	<div id="first_form" class="alpha80" style="-moz-border-radius:10px; border-radius:10px; display: none;">
 		<div class="pad-space">
@@ -44,7 +44,7 @@
     </div>
     <br>
 
-    <button id="btn2" class="btn btn-lg btn-default btn-block">PRICE PLANS TIMEBASE</button>
+    <button id="btn2" class="btn btn-lg btn-default btn-block">Precio del plan TIMEBASE</button>
     <p></p>
     <div id="second_form" class="alpha80" style="-moz-border-radius:10px; border-radius:10px; display: none;">
 		<div class="pad-space">
@@ -72,7 +72,7 @@
     </div>
     <br>
 	
-    <button id="btn3" class="btn btn-lg btn-default btn-block">PRICE PLANS QUOTABASE</button>
+    <button id="btn3" class="btn btn-lg btn-default btn-block">Precio del plan QUOTABASE</button>
     <p></p>
     <div id="third_form" class="alpha80" style="-moz-border-radius:10px; border-radius:10px; display: none;">
 		<div class="pad-space">

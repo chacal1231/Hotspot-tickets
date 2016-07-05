@@ -10,12 +10,12 @@
 ?>
 					<section id="pane">
 						<header>
-							<h1><?php echo $lang_database;?></h1>
+							<h1><?php echo $lang_Database;?></h1>
 							<nav class="breadcrumbs">
 								<ul>
 									<li class="alt"><a href="/"><i class="icon-home"></i></a></li>
 									<li><a href="/index.php"><?php echo $lang_dash;?></a></li>
-									<li><a href="#"><?php echo $lang_database;?></a></li>
+									<li><a href="#"><?php echo $lang_Database;?></a></li>
 								</ul>
 							</nav>
 						</header>
@@ -77,12 +77,12 @@ if(isset($_GET['nama_file']))
 	
 }
 
-//Backup database =================================================
+//Backup Database =================================================
 if(isset($_POST['backup']))
 {
 	backup($file);
-	echo '<p>Backup database telah selesai.<br>
-	Silahkan <a style="cursor:pointer" href="/billing/'.$file.'" title="Download">Download file database</a><br>
+	echo '<p>Backup Database telah selesai.<br>
+	Silahkan <a style="cursor:pointer" href="/billing/'.$file.'" title="Download">Descargar Base de datos</a><br>
 	Atau bisa mengambilnya pada folder <strong>backup</strong></p>';
 }
 
@@ -102,7 +102,7 @@ if(isset($_POST['backup']))
 										<div class="field g2">
 											<label><?php echo $lang_file_db;?> <span>(*.sql)</span></label>
 											<div class="entry">
-												<input type="file" name="datafile" class="custom-file  {fileDefaultText: 'File database', fileBtnText: 'click to load'}" /><!-- use options only if you will translate, or edit directly .js -->
+												<input type="file" name="datafile" class="custom-file  {fileDefaultText: 'Archivo de Base de datos', fileBtnText: 'click to load'}" /><!-- use options only if you will translate, or edit directly .js -->
 											</div>
 										</div>
 										<div class="cf"></div>
@@ -115,7 +115,7 @@ if(isset($_POST['backup']))
 
 <?php
 
-//Restore database ================================================
+//Restore Database ================================================
 if(isset($_POST['restore']))
 {
 	restore($_FILES['datafile']);

@@ -84,7 +84,7 @@ if(isset($_POST['doFormSave'])) {
 						</div>
 						<div class="cf"></div>
 						<div class="field g1">
-							<label><?php echo $lang_com_address;?> :</label>
+							<label><?php echo $lang_com_telp;?> :</label>
 							<div class="entry">
 								<input type="text" class="required" value="<?php echo $com_telp; ?>" name="com_telp" />
 							</div>
